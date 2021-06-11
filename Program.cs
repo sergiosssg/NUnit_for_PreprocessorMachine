@@ -1,4 +1,6 @@
-﻿using System;
+﻿
+using System;
+using NUnit.Framework;
 
 namespace NUnit_for_PreprocessorMachine
 {
@@ -7,6 +9,17 @@ namespace NUnit_for_PreprocessorMachine
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+        }
+    }
+
+    [TestFixture]
+    public class ActionInRuleTest
+    {
+        [Test]
+        public bool OneActionRuleWithLabelAddedSuccessfully()
+        {
+
+            return false;
         }
     }
 }
