@@ -1,4 +1,4 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
@@ -7,6 +7,12 @@
 
   <ItemGroup>
     <PackageReference Include="NUnit" Version="3.13.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="PrepMachine01">
+      <HintPath>..\..\..\..\TELET\PreprocessorMachine\PrepMachine01\PrepMachine01\obj\Debug\netcoreapp3.1\PrepMachine01.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>
