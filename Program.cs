@@ -1,6 +1,8 @@
 ﻿
 using System;
 using NUnit.Framework;
+using PM;
+
 
 namespace NUnit_for_PreprocessorMachine
 {
@@ -18,6 +20,10 @@ namespace NUnit_for_PreprocessorMachine
         [Test]
         public bool OneActionRuleWithLabelAddedSuccessfully()
         {
+            ActionInRule actionRule = new ActionInRule();
+
+           
+
 
             return false;
         }
