@@ -75,6 +75,264 @@ namespace NUnit_for_PreprocessorMachine
 
 
     [TestFixture]
+    public class OperandTypeTest
+    {
+        [Test]
+        public bool OperandType_INT_Equal()
+        {
+            return false;
+        }
+
+        [Test]
+        public bool OperandType_INT_NotEqual()
+        {
+            return false;
+        }
+
+        [Test]
+        public bool OperandType_INT_GreaterThen()
+        {
+            return false;
+        }
+
+        [Test]
+        public bool OperandType_INT_LessThen()
+        {
+            return false;
+        }
+
+        [Test]
+        public bool OperandType_INT_LessOrEqualThen()
+        {
+            return false;
+        }
+
+        [Test]
+        public bool OperandType_INT_GreaterOrEqualThen()
+        {
+            return false;
+        }
+
+        [Test]
+        public bool OperandType_LONG_Equal()
+        {
+            return false;
+        }
+
+        [Test]
+        public bool OperandType_LONG_NotEqual()
+        {
+            return false;
+        }
+
+        [Test]
+        public bool OperandType_LONG_GreaterThen()
+        {
+            return false;
+        }
+
+        [Test]
+        public bool OperandType_LONG_LessThen()
+        {
+            return false;
+        }
+
+        [Test]
+        public bool OperandType_LONG_LessOrEqualThen()
+        {
+            return false;
+        }
+
+        [Test]
+        public bool OperandType_LONG_GreaterOrEqualThen()
+        {
+            return false;
+        }
+
+        [Test]
+        public bool OperandType_DECIMAL_Equal()
+        {
+            return false;
+        }
+
+        [Test]
+        public bool OperandType_DECIMAL_NotEqual()
+        {
+            return false;
+        }
+
+        [Test]
+        public bool OperandType_DECIMAL_GreaterThen()
+        {
+            return false;
+        }
+
+        [Test]
+        public bool OperandType_DECIMAL_LessThen()
+        {
+            return false;
+        }
+
+        [Test]
+        public bool OperandType_DECIMAL_LessOrEqualThen()
+        {
+            return false;
+        }
+
+        [Test]
+        public bool OperandType_DECIMAL_GreaterOrEqualThen()
+        {
+            return false;
+        }
+
+        [Test]
+        public bool OperandType_STRING_Equal()
+        {
+            return false;
+        }
+
+        [Test]
+        public bool OperandType_STRING_NotEqual()
+        {
+            return false;
+        }
+
+        [Test]
+        public bool OperandType_STRING_Contains()
+        {
+            return false;
+        }
+
+        [Test]
+        public bool OperandType_STRING_NotContains()
+        {
+            return false;
+        }
+
+        [Test]
+        public bool OperandType_BOOL_Equal()
+        {
+            return false;
+        }
+
+        [Test]
+        public bool OperandType_BOOL_NotEqual()
+        {
+            return false;
+        }
+
+        [Test]
+        public bool OperandType_DATE_Equal()
+        {
+            return false;
+        }
+
+        [Test]
+        public bool OperandType_DATE_NotEqual()
+        {
+            return false;
+        }
+
+        [Test]
+        public bool OperandType_DATE_GreaterThen()
+        {
+            return false;
+        }
+
+        [Test]
+        public bool OperandType_DATE_LessThen()
+        {
+            return false;
+        }
+
+        [Test]
+        public bool OperandType_DATE_LessOrEqualThen()
+        {
+            return false;
+        }
+
+        [Test]
+        public bool OperandType_DATE_GreaterOrEqualThen()
+        {
+            return false;
+        }
+
+        [Test]
+        public bool OperandType_FUZZY_Equal()
+        {
+            return false;
+        }
+
+        [Test]
+        public bool OperandType_FUZZY_NotEqual()
+        {
+            return false;
+        }
+
+        [Test]
+        public bool OperandType_FUZZY_GreaterThen()
+        {
+            return false;
+        }
+
+        [Test]
+        public bool OperandType_FUZZY_LessThen()
+        {
+            return false;
+        }
+
+        [Test]
+        public bool OperandType_FUZZY_LessOrEqualThen()
+        {
+            return false;
+        }
+
+        [Test]
+        public bool OperandType_FUZZY_GreaterOrEqualThen()
+        {
+            return false;
+        }
+
+        [Test]
+        public bool OperandType_COMBYLOGIC_Equal()
+        {
+            return false;
+        }
+
+        [Test]
+        public bool OperandType_COMBYLOGIC_NotEqual()
+        {
+            return false;
+        }
+
+        [Test]
+        public bool OperandType_COMBYLOGIC_GreaterThen()
+        {
+            return false;
+        }
+
+        [Test]
+        public bool OperandType_COMBYLOGIC_LessThen()
+        {
+            return false;
+        }
+
+        [Test]
+        public bool OperandType_COMBYLOGIC_LessOrEqualThen()
+        {
+            return false;
+        }
+
+        [Test]
+        public bool OperandType_COMBYLOGIC_GreaterOrEqualThen()
+        {
+            return false;
+        }
+
+    }
+
+
+    [TestFixture]
     public class ActionInRuleTest
     {
         [Test]
