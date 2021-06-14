@@ -14,6 +14,63 @@ namespace NUnit_for_PreprocessorMachine
         }
     }
 
+
+    [TestFixture]
+    public class ComparisonOperatorTypeTest
+    {
+
+        [Test]
+        public bool LEcomparisionTest()
+        {
+            return false;
+        }
+
+        [Test]
+        public bool LTcomparisionTest()
+        {
+            return false;
+        }
+
+
+        [Test]
+        public bool GEcomparisionTest()
+        {
+            return false;
+        }
+
+        [Test]
+        public bool GTcomparisionTest()
+        {
+            return false;
+        }
+
+        [Test]
+        public bool EQcomparisionTest()
+        {
+            return false;
+        }
+
+        [Test]
+        public bool NEcomparisionTest()
+        {
+            return false;
+        }
+
+        [Test]
+        public bool CONTAINScomparisionTest()
+        {
+            return false;
+        }
+
+        [Test]
+        public bool NOTCONTAINScomparisionTest()
+        {
+            return false;
+        }
+
+    }
+
+
     [TestFixture]
     public class ActionInRuleTest
     {
