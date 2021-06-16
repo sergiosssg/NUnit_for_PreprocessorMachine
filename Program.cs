@@ -16,7 +16,7 @@ namespace NUnit_for_PreprocessorMachine
 
 
     [TestFixture]
-    public class ComparisonOperatorTypeTest
+    public class ComparisonOperatorTypeTests
     {
 
 
@@ -75,7 +75,7 @@ namespace NUnit_for_PreprocessorMachine
 
 
     [TestFixture]
-    public class OperandTypeTest
+    public class OperandTypeTests
     {
         [Test]
         public bool OperandType_INT_Equal()
@@ -333,7 +333,7 @@ namespace NUnit_for_PreprocessorMachine
 
 
     [TestFixture]
-    public class ActionInRuleTest
+    public class ActionInRuleTests
     {
         [Test]
         public bool OneActionRuleWithLabelAddedSuccessfully()
@@ -348,7 +348,7 @@ namespace NUnit_for_PreprocessorMachine
     }
 
     [TestFixture]
-    public class LabelOfProcessingTest
+    public class LabelOfProcessingTests
     {
 
         [Test]
