@@ -338,7 +338,7 @@ namespace NUnit_for_PreprocessorMachine
         [Test]
         public bool OneActionRuleWithLabelAddedSuccessfully()
         {
-            ActionInRule actionRule = new ActionInRule();
+            IActionRule actionRule = new LabelActionInRule();
 
            
 
