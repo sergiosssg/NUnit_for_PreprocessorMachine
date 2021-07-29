@@ -10,7 +10,8 @@ namespace NUnit_for_PreprocessorMachine
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+
+            Console.WriteLine("Test passed!");
         }
     }
 
